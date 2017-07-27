@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#0009ff"
+    android:orientation="vertical">
+
+    <com.example.thachnguyen.myapplication.components.ToolbarView
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:enableBackIcon="true"
+        app:toolbarTitle="@string/fragment_manager"
+        app:enableNotificationIcon="true" />
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PINK" />
+
+    <Button
+        android:id="@+id/prev"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RED" />
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:text="blue"
+        android:padding="19dp"
+        android:textSize="20sp"/>
+</LinearLayout>
